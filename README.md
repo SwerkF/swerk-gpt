@@ -62,7 +62,7 @@ Start project
 #### Post message
 
 ```http
-  POST /api/api/complete
+  POST /api/complete
 ```
 
 | Parameter | Type     | Description                       |
