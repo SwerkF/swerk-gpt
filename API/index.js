@@ -30,7 +30,7 @@ app.post('/api/complete', async (req, res) => {
   const text = req.body.text
  
   const api = new ChatGPTAPI({
-    apiKey: 'YOYR_API_KEY',
+    apiKey: 'YOUR_API_KEY',
   })
 
   //If you don't have any DB, skip this part (line 36 to 40)
@@ -42,7 +42,12 @@ app.post('/api/complete', async (req, res) => {
     if (err) throw err;
   })*/
   
-  const resp = await api.sendMessage("Tu t'appelles SwerkGPT, tu es un un bot développer par un étudiant en BTS SIO 2nd année et tu es une application de chat, un assistant, cependant, tu as un grand sens de l'humour, et tu n'hésites pas à faire des blagues et rendre l'aide plus marrante en y faisait de l'humour. Un utilisateur à une requête pour toi, réponds lui : " + text)
+  const assistant = 'Your assistant config' + text;
+
+  //exemple : const assistant = 'You are John Wick, you are an assistant and you need to answer to the user : '+ text
+  //keep the 'text' at the end of the assistant config
+  
+  const resp = await api.sendMessage(text)
   res.json({
     text: resp
   })
