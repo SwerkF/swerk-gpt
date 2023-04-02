@@ -1,0 +1,35 @@
+{
+  "name": "swerk-gpt-api",
+  "version": "1.0.0",
+  "description": "Application SwerkGPT, reprenant le fonctionnement de ChatGPT",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SwerkF",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/SwerkF/swerk-gpt"
+  },
+  "keywords": [
+    "chatgpt",
+    "customgpt",
+    "swerk"
+  ],
+  "dependencies": {
+    "@babel/register": "^7.21.0",
+    "chatgpt": "^5.1.3",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.22",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-react": "^7.18.6"
+  }
+}

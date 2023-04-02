@@ -1,0 +1,65 @@
+.gray {
+    background-color: #2a2a2a;
+}
+
+.light-gray {
+    background-color: rgb(38, 38, 38);
+}
+
+.text-color {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.bg-dark-gray {
+    background-color: #393939 !important;
+    color: #fff !important;
+    border: #3b3b3b;
+}
+
+.no-round-left {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.messages-hist {
+    min-height: 82vh;
+    max-height: 82vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0 1rem;
+}
+
+input::placeholder {
+    color: #848484 !important;
+}
+
+img, svg {
+    vertical-align:baseline !important;
+}
+.messages-hist::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+.messages-hist::-webkit-scrollbar-track {
+    background: #7c7c7c;
+}
+
+.messages-hist::-webkit-scrollbar-thumb {
+    background: #939393;
+}
+
+.messages-hist::-webkit-scrollbar-thumb:hover {
+    background: #939393;
+}
+
+.messages-hist::-webkit-scrollbar-thumb:active {
+    background: #939393;
+}
+
+.messages-hist::-webkit-scrollbar-thumb:window-inactive {
+    background: #939393;
+}
+
+
+
