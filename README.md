@@ -73,7 +73,7 @@ Start project
 
 ## Authors 👑
 
-- [Oliwer Skweres](https://www.github.com/SwerkF) 
+- [Swerk](https://www.github.com/SwerkF) 
 
 
 ## Demo
