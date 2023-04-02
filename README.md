@@ -80,6 +80,10 @@ Start project
 
 ![gif](https://cdn.discordapp.com/attachments/884145833036095559/1091900165746606201/Video_sans_titre_Realisee_avec_Clipchamp_2.gif)
 
+## Todo
+
+- Optimize code
+- Create an admin panel 
 
 ## FAQ
 
