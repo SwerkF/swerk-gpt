@@ -35,7 +35,7 @@ async function start() {
       const text = req.body.text;
     
       const api = new ChatGPTAPI({
-        apiKey: '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'
+        apiKey: ''
       })
   
       let today = new Date();
