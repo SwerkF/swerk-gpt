@@ -15,7 +15,7 @@ const Home = () => {
     const [text, setText] = useState<string>('');
 
     useEffect(() => {
-        document.title = 'Home';
+        document.title = 'Swerk GPT';
     })
 
     const handleSubmit = async () => {
@@ -45,9 +45,10 @@ const Home = () => {
         let copytext = text;
         
         setText('');
-        axios.post('http://localhost:3000/api/complete', {
+        axios.post('https://api.swerk.fr/api/complete', {
             text: copytext
         }).then(function (response) {
+            console.log(response.data)
             let divbot = (
                 <BotMessage text={response.data.text.text} />
             )

@@ -8,7 +8,7 @@ const UserMessage = (props:any) => {
             <Row align="middle">
                 <Col span={4} className="text-center p-4">
                     <Space>
-                        <Avatar shape="square" size={64} icon={<img src="http://localhost:3000/api/images/logouser.jpg" />} />
+                        <Avatar shape="square" size={64} icon={<img src="https://api.swerk.fr/api/images/logouser.jpg" />} />
                     </Space>
                 </Col>
                 <Col span={16}>
