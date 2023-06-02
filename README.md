@@ -87,10 +87,6 @@ Start project
 
 ## FAQ
 
-#### Will I add new features ?
-
-Yes for sure, as soon as I have some time, I'll work on improving my app.
-
 #### It it free?
 
 Of course, all you need, is to download the project and get yourself and OpenAI API Key.
